@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674257F128A8DEE000E22854 /* GeocoderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674257F028A8DEE000E22854 /* GeocoderManager.swift */; };
+		674257F428A90B9600E22854 /* KyoboHandwriting2020pdy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 674257F328A90B9600E22854 /* KyoboHandwriting2020pdy.otf */; };
 		679C158428A6A06300848536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C158328A6A06300848536 /* AppDelegate.swift */; };
 		679C158628A6A06300848536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C158528A6A06300848536 /* SceneDelegate.swift */; };
 		679C158B28A6A06300848536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679C158928A6A06300848536 /* Main.storyboard */; };
 		679C158D28A6A06500848536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679C158C28A6A06500848536 /* Assets.xcassets */; };
 		679C159028A6A06500848536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679C158E28A6A06500848536 /* LaunchScreen.storyboard */; };
 		679C159828A6A52200848536 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C159728A6A52200848536 /* WeatherViewController.swift */; };
+		679C159A28A771FC00848536 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C159928A771FC00848536 /* WeatherTableViewCell.swift */; };
+		679C159C28A772E100848536 /* ReuseableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C159B28A772E100848536 /* ReuseableProtocol.swift */; };
+		679C159F28A7D5D400848536 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 679C159E28A7D5D400848536 /* Kingfisher */; };
+		679C15A428A7EC1E00848536 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C15A328A7EC1E00848536 /* DateManager.swift */; };
+		679C15A828A7F3C500848536 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C15A728A7F3C500848536 /* WeatherInfo.swift */; };
+		679C15AD28A7F6A800848536 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C15AC28A7F6A800848536 /* APIKey.swift */; };
+		679C15AF28A8A3AF00848536 /* LocationAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C15AE28A8A3AF00848536 /* LocationAPIManager.swift */; };
+		679C15B228A8A46500848536 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 679C15B128A8A46500848536 /* Alamofire */; };
+		679C15B528A8A47200848536 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 679C15B428A8A47200848536 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		674257F028A8DEE000E22854 /* GeocoderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocoderManager.swift; sourceTree = "<group>"; };
+		674257F328A90B9600E22854 /* KyoboHandwriting2020pdy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KyoboHandwriting2020pdy.otf; sourceTree = "<group>"; };
 		679C158028A6A06300848536 /* WeatherTalkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTalkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		679C158328A6A06300848536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		679C158528A6A06300848536 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,12 @@
 		679C158F28A6A06500848536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		679C159128A6A06500848536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		679C159728A6A52200848536 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		679C159928A771FC00848536 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		679C159B28A772E100848536 /* ReuseableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseableProtocol.swift; sourceTree = "<group>"; };
+		679C15A328A7EC1E00848536 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		679C15A728A7F3C500848536 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		679C15AC28A7F6A800848536 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		679C15AE28A8A3AF00848536 /* LocationAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAPIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679C15B528A8A47200848536 /* SwiftyJSON in Frameworks */,
+				679C159F28A7D5D400848536 /* Kingfisher in Frameworks */,
+				679C15B228A8A46500848536 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		674257F228A90B8700E22854 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				674257F328A90B9600E22854 /* KyoboHandwriting2020pdy.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		679C157728A6A06300848536 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +86,55 @@
 		679C158228A6A06300848536 /* WeatherTalkProject */ = {
 			isa = PBXGroup;
 			children = (
+				674257F228A90B8700E22854 /* Font */,
+				679C15A928A7F67500848536 /* Constract */,
+				679C15A228A7EBE400848536 /* Manager */,
+				679C15A128A7EBA100848536 /* Protocol */,
+				679C15A028A7EB8300848536 /* Controller */,
 				679C158328A6A06300848536 /* AppDelegate.swift */,
 				679C158528A6A06300848536 /* SceneDelegate.swift */,
-				679C159728A6A52200848536 /* WeatherViewController.swift */,
+				679C159928A771FC00848536 /* WeatherTableViewCell.swift */,
 				679C158928A6A06300848536 /* Main.storyboard */,
 				679C158C28A6A06500848536 /* Assets.xcassets */,
 				679C158E28A6A06500848536 /* LaunchScreen.storyboard */,
 				679C159128A6A06500848536 /* Info.plist */,
+				679C15A728A7F3C500848536 /* WeatherInfo.swift */,
 			);
 			path = WeatherTalkProject;
+			sourceTree = "<group>";
+		};
+		679C15A028A7EB8300848536 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				679C159728A6A52200848536 /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		679C15A128A7EBA100848536 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				679C159B28A772E100848536 /* ReuseableProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		679C15A228A7EBE400848536 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				679C15A328A7EC1E00848536 /* DateManager.swift */,
+				679C15AE28A8A3AF00848536 /* LocationAPIManager.swift */,
+				674257F028A8DEE000E22854 /* GeocoderManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		679C15A928A7F67500848536 /* Constract */ = {
+			isa = PBXGroup;
+			children = (
+				679C15AC28A7F6A800848536 /* APIKey.swift */,
+			);
+			path = Constract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,11 @@
 			dependencies = (
 			);
 			name = WeatherTalkProject;
+			packageProductDependencies = (
+				679C159E28A7D5D400848536 /* Kingfisher */,
+				679C15B128A8A46500848536 /* Alamofire */,
+				679C15B428A8A47200848536 /* SwiftyJSON */,
+			);
 			productName = WeatherTalkProject;
 			productReference = 679C158028A6A06300848536 /* WeatherTalkProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +186,11 @@
 				Base,
 			);
 			mainGroup = 679C157728A6A06300848536;
+			packageReferences = (
+				679C159D28A7D5D400848536 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				679C15B028A8A46500848536 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				679C15B328A8A47200848536 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 679C158128A6A06300848536 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +207,7 @@
 			files = (
 				679C159028A6A06500848536 /* LaunchScreen.storyboard in Resources */,
 				679C158D28A6A06500848536 /* Assets.xcassets in Resources */,
+				674257F428A90B9600E22854 /* KyoboHandwriting2020pdy.otf in Resources */,
 				679C158B28A6A06300848536 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679C15A828A7F3C500848536 /* WeatherInfo.swift in Sources */,
+				679C159A28A771FC00848536 /* WeatherTableViewCell.swift in Sources */,
+				679C15AD28A7F6A800848536 /* APIKey.swift in Sources */,
+				679C15AF28A8A3AF00848536 /* LocationAPIManager.swift in Sources */,
+				679C15A428A7EC1E00848536 /* DateManager.swift in Sources */,
 				679C158428A6A06300848536 /* AppDelegate.swift in Sources */,
 				679C159828A6A52200848536 /* WeatherViewController.swift in Sources */,
+				674257F128A8DEE000E22854 /* GeocoderManager.swift in Sources */,
+				679C159C28A772E100848536 /* ReuseableProtocol.swift in Sources */,
 				679C158628A6A06300848536 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +450,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		679C159D28A7D5D400848536 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		679C15B028A8A46500848536 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		679C15B328A8A47200848536 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		679C159E28A7D5D400848536 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 679C159D28A7D5D400848536 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		679C15B128A8A46500848536 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 679C15B028A8A46500848536 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		679C15B428A8A47200848536 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 679C15B328A8A47200848536 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 679C157828A6A06300848536 /* Project object */;
 }
