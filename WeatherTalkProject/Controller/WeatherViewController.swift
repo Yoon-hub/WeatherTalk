@@ -6,8 +6,10 @@
 //
 
 import UIKit
-import Kingfisher
 import CoreLocation
+
+import Kingfisher
+import JGProgressHUD
 
 class WeatherViewController: UIViewController {
 
@@ -16,6 +18,8 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     
     let locationManager = CLLocationManager()
+    
+    let hud = JGProgressHUD()
     
     var weatherInfo: WeatherInfo!
     
@@ -156,11 +160,12 @@ extension WeatherViewController: CLLocationManagerDelegate {
         
         //ex. 위도 경도 기반으로 날씨 정보를 조회
         //ex. 지도를 다시 세팅
-        
+        hud.show(in: view)
         if let coordinate = locations.last?.coordinate {
             LocationAPIManager.shared.requestLocation(coordinate: coordinate) { result in
                 self.weatherInfo = result
                 self.chatTableView.reloadData()
+                self.hud.dismiss(animated: true)
             }
             
             GeoCoderManager.shared.changeGeo(coordinate: coordinate) { result in

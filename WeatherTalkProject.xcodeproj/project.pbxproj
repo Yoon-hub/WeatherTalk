@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		674257F128A8DEE000E22854 /* GeocoderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674257F028A8DEE000E22854 /* GeocoderManager.swift */; };
 		674257F428A90B9600E22854 /* KyoboHandwriting2020pdy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 674257F328A90B9600E22854 /* KyoboHandwriting2020pdy.otf */; };
+		674257F728A9135200E22854 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 674257F628A9135200E22854 /* JGProgressHUD */; };
 		679C158428A6A06300848536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C158328A6A06300848536 /* AppDelegate.swift */; };
 		679C158628A6A06300848536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C158528A6A06300848536 /* SceneDelegate.swift */; };
 		679C158B28A6A06300848536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679C158928A6A06300848536 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674257F728A9135200E22854 /* JGProgressHUD in Frameworks */,
 				679C15B528A8A47200848536 /* SwiftyJSON in Frameworks */,
 				679C159F28A7D5D400848536 /* Kingfisher in Frameworks */,
 				679C15B228A8A46500848536 /* Alamofire in Frameworks */,
@@ -157,6 +159,7 @@
 				679C159E28A7D5D400848536 /* Kingfisher */,
 				679C15B128A8A46500848536 /* Alamofire */,
 				679C15B428A8A47200848536 /* SwiftyJSON */,
+				674257F628A9135200E22854 /* JGProgressHUD */,
 			);
 			productName = WeatherTalkProject;
 			productReference = 679C158028A6A06300848536 /* WeatherTalkProject.app */;
@@ -190,6 +193,7 @@
 				679C159D28A7D5D400848536 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				679C15B028A8A46500848536 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				679C15B328A8A47200848536 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				674257F528A9135200E22854 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 			);
 			productRefGroup = 679C158128A6A06300848536 /* Products */;
 			projectDirPath = "";
@@ -452,6 +456,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		674257F528A9135200E22854 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		679C159D28A7D5D400848536 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -479,6 +491,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		674257F628A9135200E22854 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 674257F528A9135200E22854 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
 		679C159E28A7D5D400848536 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 679C159D28A7D5D400848536 /* XCRemoteSwiftPackageReference "Kingfisher" */;
