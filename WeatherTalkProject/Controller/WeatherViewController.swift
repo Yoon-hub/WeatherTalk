@@ -31,7 +31,7 @@ class WeatherViewController: UIViewController {
         timeLabel.font = UIFont(name: "KyoboHandwriting2020", size: 17)
         locationLabel.font = UIFont(name: "KyoboHandwriting2020", size: 22)
         locationManager.delegate = self
-            weatherInfo = WeatherInfo(temp: 35.6, humidity: 5, windSpeed: 0.88, imageIcon: "04n")
+        weatherInfo = WeatherInfo(temp: 35.6, humidity: 5, windSpeed: 0.88, imageIcon: "04n")
     
         
     }
@@ -165,7 +165,7 @@ extension WeatherViewController: CLLocationManagerDelegate {
                 self.weatherInfo = result
                 self.chatTableView.reloadData()
                 self.hud.dismiss(animated: true)
-                self.timeLabel.text = DateManager.shared.nowTime()
+                self.timeLabel.text = DateFormatter.nowTime
             }
             
             GeoCoderManager.shared.changeGeo(coordinate: coordinate) { result in
