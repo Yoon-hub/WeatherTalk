@@ -31,7 +31,7 @@ class WeatherViewController: UIViewController {
         timeLabel.font = UIFont(name: "KyoboHandwriting2020", size: 17)
         locationLabel.font = UIFont(name: "KyoboHandwriting2020", size: 22)
         locationManager.delegate = self
-        weatherInfo = WeatherInfo(temp: 35.6, humidity: 5, windSpeed: 0.88, imageIcon: "04n")
+        weatherInfo = WeatherInfo(temp: 0.0, humidity: 0, windSpeed: 0.0, imageIcon: "04n")
     
         
     }
